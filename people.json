@@ -1,19 +1,1202 @@
-{
-    "people": [
-        {
-            "name": "Dzinh Pham",
-            "title": "Student",
-            "tags": [
-                "college",
-                "asian",
-                "computer science",
-                "freshman",
-                "chill",
-                "swim",
-                "water polo"
-            ],
-            "bio": "I'm John, an 18-year-old freshman at XYZ University, majoring in Computer Science. I'm of Asian descent and would describe myself as chill. In my free time, I enjoy swimming and playing water polo.",
-            "learn_more": "link goes here"
-        }
-    ]
-}
+[
+    {
+        "name": "Michael",
+        "title": "Researcher",
+        "tags": [
+            "water polo",
+            "aquatics",
+            "team sport",
+            "pool"
+        ],
+        "bio": "I'm Michael, a 24-year-old senior at XYZ University, majoring in Computer Science. I'm of European descent and would describe myself as reserved. In my free time, I enjoy coding.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "John",
+        "title": "Student",
+        "tags": [
+            "swim",
+            "swimming",
+            "pool",
+            "aquatics"
+        ],
+        "bio": "I'm John, a 23-year-old sophomore at XYZ University, majoring in Engineering. I'm of African descent and would describe myself as chill. In my free time, I enjoy hiking.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Emily",
+        "title": "Engineer",
+        "tags": [
+            "swim",
+            "swimming",
+            "pool",
+            "aquatics"
+        ],
+        "bio": "I'm Emily, a 21-year-old senior at XYZ University, majoring in Computer Science. I'm of African descent and would describe myself as chill. In my free time, I enjoy swimming.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Daniel",
+        "title": "Engineer",
+        "tags": [
+            "asian",
+            "chinese",
+            "japanese",
+            "korean"
+        ],
+        "bio": "Hey there! I'm Daniel, currently enrolled as a senior in XYZ University. My main interests lie in Psychology, and I spend my leisure time swimming.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Isabella",
+        "title": "Researcher",
+        "tags": [
+            "swim",
+            "swimming",
+            "pool",
+            "aquatics"
+        ],
+        "bio": "I'm Isabella, a 19-year-old senior at XYZ University, majoring in Biology. I'm of European descent and would describe myself as reserved. In my free time, I enjoy swimming.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Emma",
+        "title": "Intern",
+        "tags": [
+            "college",
+            "university",
+            "student",
+            "education"
+        ],
+        "bio": "Hey there! I'm Emma, currently enrolled as a senior in XYZ University. My main interests lie in Biology, and I spend my leisure time reading.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Sophia",
+        "title": "Researcher",
+        "tags": [
+            "chill",
+            "relaxed",
+            "laid-back",
+            "easygoing"
+        ],
+        "bio": "Hey there! I'm Sophia, currently enrolled as a sophomore in XYZ University. My main interests lie in Psychology, and I spend my leisure time reading.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "David",
+        "title": "Engineer",
+        "tags": [
+            "college",
+            "university",
+            "student",
+            "education"
+        ],
+        "bio": "Greetings! I'm David, pursuing a degree in Engineering at XYZ University. Being European, I find reading to be a great way to unwind.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "John",
+        "title": "Engineer",
+        "tags": [
+            "water polo",
+            "aquatics",
+            "team sport",
+            "pool"
+        ],
+        "bio": "Hey there! I'm John, currently enrolled as a senior in XYZ University. My main interests lie in Psychology, and I spend my leisure time reading.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Andrew",
+        "title": "Intern",
+        "tags": [
+            "chill",
+            "relaxed",
+            "laid-back",
+            "easygoing"
+        ],
+        "bio": "Greetings! I'm Andrew, pursuing a degree in Psychology at XYZ University. Being Asian, I find reading to be a great way to unwind.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Isabella",
+        "title": "Intern",
+        "tags": [
+            "swim",
+            "swimming",
+            "pool",
+            "aquatics"
+        ],
+        "bio": "Greetings! I'm Isabella, pursuing a degree in Biology at XYZ University. Being European, I find hiking to be a great way to unwind.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Andrew",
+        "title": "Intern",
+        "tags": [
+            "chill",
+            "relaxed",
+            "laid-back",
+            "easygoing"
+        ],
+        "bio": "I'm Andrew, a 23-year-old freshman at XYZ University, majoring in Computer Science. I'm of African descent and would describe myself as chill. In my free time, I enjoy reading.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Daniel",
+        "title": "Intern",
+        "tags": [
+            "asian",
+            "chinese",
+            "japanese",
+            "korean"
+        ],
+        "bio": "I'm Daniel, a 25-year-old freshman at XYZ University, majoring in Computer Science. I'm of European descent and would describe myself as enthusiastic. In my free time, I enjoy coding.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Sophia",
+        "title": "Engineer",
+        "tags": [
+            "swim",
+            "swimming",
+            "pool",
+            "aquatics"
+        ],
+        "bio": "Greetings! I'm Sophia, pursuing a degree in Computer Science at XYZ University. Being Hispanic, I find hiking to be a great way to unwind.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "David",
+        "title": "Researcher",
+        "tags": [
+            "water polo",
+            "aquatics",
+            "team sport",
+            "pool"
+        ],
+        "bio": "Hey there! I'm David, currently enrolled as a junior in XYZ University. My main interests lie in Biology, and I spend my leisure time reading.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Sophia",
+        "title": "Engineer",
+        "tags": [
+            "swim",
+            "swimming",
+            "pool",
+            "aquatics"
+        ],
+        "bio": "Hey there! I'm Sophia, currently enrolled as a junior in XYZ University. My main interests lie in Engineering, and I spend my leisure time hiking.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Daniel",
+        "title": "Engineer",
+        "tags": [
+            "college",
+            "university",
+            "student",
+            "education"
+        ],
+        "bio": "Hey there! I'm Daniel, currently enrolled as a junior in XYZ University. My main interests lie in Biology, and I spend my leisure time reading.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Isabella",
+        "title": "Researcher",
+        "tags": [
+            "computer science",
+            "programming",
+            "coding",
+            "technology"
+        ],
+        "bio": "Greetings! I'm Isabella, pursuing a degree in Biology at XYZ University. Being European, I find hiking to be a great way to unwind.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Olivia",
+        "title": "Researcher",
+        "tags": [
+            "freshman",
+            "sophomore",
+            "junior",
+            "senior"
+        ],
+        "bio": "Hi, I'm Olivia, a 24-year-old student studying Computer Science at XYZ University. I love swimming and consider myself quite reserved.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Michael",
+        "title": "Researcher",
+        "tags": [
+            "computer science",
+            "programming",
+            "coding",
+            "technology"
+        ],
+        "bio": "Hey there! I'm Michael, currently enrolled as a freshman in XYZ University. My main interests lie in Psychology, and I spend my leisure time coding.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Isabella",
+        "title": "Researcher",
+        "tags": [
+            "chill",
+            "relaxed",
+            "laid-back",
+            "easygoing"
+        ],
+        "bio": "Greetings! I'm Isabella, pursuing a degree in Computer Science at XYZ University. Being European, I find hiking to be a great way to unwind.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Isabella",
+        "title": "Engineer",
+        "tags": [
+            "swim",
+            "swimming",
+            "pool",
+            "aquatics"
+        ],
+        "bio": "I'm Isabella, a 19-year-old sophomore at XYZ University, majoring in Computer Science. I'm of African descent and would describe myself as adventurous. In my free time, I enjoy coding.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Olivia",
+        "title": "Intern",
+        "tags": [
+            "chill",
+            "relaxed",
+            "laid-back",
+            "easygoing"
+        ],
+        "bio": "Greetings! I'm Olivia, pursuing a degree in Psychology at XYZ University. Being European, I find coding to be a great way to unwind.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Emma",
+        "title": "Engineer",
+        "tags": [
+            "chill",
+            "relaxed",
+            "laid-back",
+            "easygoing"
+        ],
+        "bio": "Greetings! I'm Emma, pursuing a degree in Psychology at XYZ University. Being African, I find coding to be a great way to unwind.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Isabella",
+        "title": "Researcher",
+        "tags": [
+            "college",
+            "university",
+            "student",
+            "education"
+        ],
+        "bio": "Hi, I'm Isabella, a 24-year-old student studying Psychology at XYZ University. I love swimming and consider myself quite adventurous.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Olivia",
+        "title": "Researcher",
+        "tags": [
+            "freshman",
+            "sophomore",
+            "junior",
+            "senior"
+        ],
+        "bio": "Hey there! I'm Olivia, currently enrolled as a sophomore in XYZ University. My main interests lie in Biology, and I spend my leisure time hiking.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Daniel",
+        "title": "Researcher",
+        "tags": [
+            "water polo",
+            "aquatics",
+            "team sport",
+            "pool"
+        ],
+        "bio": "Hey there! I'm Daniel, currently enrolled as a junior in XYZ University. My main interests lie in Biology, and I spend my leisure time reading.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Emma",
+        "title": "Researcher",
+        "tags": [
+            "water polo",
+            "aquatics",
+            "team sport",
+            "pool"
+        ],
+        "bio": "Hey there! I'm Emma, currently enrolled as a senior in XYZ University. My main interests lie in Engineering, and I spend my leisure time hiking.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Daniel",
+        "title": "Intern",
+        "tags": [
+            "chill",
+            "relaxed",
+            "laid-back",
+            "easygoing"
+        ],
+        "bio": "Hey there! I'm Daniel, currently enrolled as a senior in XYZ University. My main interests lie in Biology, and I spend my leisure time coding.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Daniel",
+        "title": "Intern",
+        "tags": [
+            "college",
+            "university",
+            "student",
+            "education"
+        ],
+        "bio": "Hey there! I'm Daniel, currently enrolled as a junior in XYZ University. My main interests lie in Biology, and I spend my leisure time coding.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Daniel",
+        "title": "Engineer",
+        "tags": [
+            "chill",
+            "relaxed",
+            "laid-back",
+            "easygoing"
+        ],
+        "bio": "Hi, I'm Daniel, a 24-year-old student studying Engineering at XYZ University. I love swimming and consider myself quite reserved.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Daniel",
+        "title": "Intern",
+        "tags": [
+            "college",
+            "university",
+            "student",
+            "education"
+        ],
+        "bio": "Hi, I'm Daniel, a 23-year-old student studying Engineering at XYZ University. I love swimming and consider myself quite adventurous.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Emma",
+        "title": "Intern",
+        "tags": [
+            "college",
+            "university",
+            "student",
+            "education"
+        ],
+        "bio": "Hey there! I'm Emma, currently enrolled as a senior in XYZ University. My main interests lie in Psychology, and I spend my leisure time coding.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Andrew",
+        "title": "Engineer",
+        "tags": [
+            "swim",
+            "swimming",
+            "pool",
+            "aquatics"
+        ],
+        "bio": "I'm Andrew, a 21-year-old sophomore at XYZ University, majoring in Biology. I'm of Asian descent and would describe myself as reserved. In my free time, I enjoy coding.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Sophia",
+        "title": "Intern",
+        "tags": [
+            "college",
+            "university",
+            "student",
+            "education"
+        ],
+        "bio": "Hi, I'm Sophia, a 21-year-old student studying Computer Science at XYZ University. I love reading and consider myself quite reserved.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Olivia",
+        "title": "Engineer",
+        "tags": [
+            "swim",
+            "swimming",
+            "pool",
+            "aquatics"
+        ],
+        "bio": "I'm Olivia, a 18-year-old senior at XYZ University, majoring in Engineering. I'm of European descent and would describe myself as enthusiastic. In my free time, I enjoy swimming.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Daniel",
+        "title": "Student",
+        "tags": [
+            "asian",
+            "chinese",
+            "japanese",
+            "korean"
+        ],
+        "bio": "Hi, I'm Daniel, a 21-year-old student studying Biology at XYZ University. I love swimming and consider myself quite reserved.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Andrew",
+        "title": "Researcher",
+        "tags": [
+            "swim",
+            "swimming",
+            "pool",
+            "aquatics"
+        ],
+        "bio": "I'm Andrew, a 25-year-old senior at XYZ University, majoring in Biology. I'm of European descent and would describe myself as enthusiastic. In my free time, I enjoy coding.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Michael",
+        "title": "Researcher",
+        "tags": [
+            "water polo",
+            "aquatics",
+            "team sport",
+            "pool"
+        ],
+        "bio": "Hi, I'm Michael, a 21-year-old student studying Biology at XYZ University. I love reading and consider myself quite reserved.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Sophia",
+        "title": "Researcher",
+        "tags": [
+            "asian",
+            "chinese",
+            "japanese",
+            "korean"
+        ],
+        "bio": "Greetings! I'm Sophia, pursuing a degree in Psychology at XYZ University. Being European, I find hiking to be a great way to unwind.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Emma",
+        "title": "Intern",
+        "tags": [
+            "college",
+            "university",
+            "student",
+            "education"
+        ],
+        "bio": "Greetings! I'm Emma, pursuing a degree in Engineering at XYZ University. Being Asian, I find swimming to be a great way to unwind.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Michael",
+        "title": "Researcher",
+        "tags": [
+            "freshman",
+            "sophomore",
+            "junior",
+            "senior"
+        ],
+        "bio": "Hey there! I'm Michael, currently enrolled as a senior in XYZ University. My main interests lie in Engineering, and I spend my leisure time coding.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Daniel",
+        "title": "Researcher",
+        "tags": [
+            "computer science",
+            "programming",
+            "coding",
+            "technology"
+        ],
+        "bio": "Hey there! I'm Daniel, currently enrolled as a senior in XYZ University. My main interests lie in Engineering, and I spend my leisure time swimming.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Andrew",
+        "title": "Engineer",
+        "tags": [
+            "computer science",
+            "programming",
+            "coding",
+            "technology"
+        ],
+        "bio": "Hi, I'm Andrew, a 25-year-old student studying Computer Science at XYZ University. I love swimming and consider myself quite reserved.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Sophia",
+        "title": "Student",
+        "tags": [
+            "asian",
+            "chinese",
+            "japanese",
+            "korean"
+        ],
+        "bio": "Hey there! I'm Sophia, currently enrolled as a senior in XYZ University. My main interests lie in Computer Science, and I spend my leisure time coding.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Isabella",
+        "title": "Engineer",
+        "tags": [
+            "water polo",
+            "aquatics",
+            "team sport",
+            "pool"
+        ],
+        "bio": "Hi, I'm Isabella, a 18-year-old student studying Computer Science at XYZ University. I love reading and consider myself quite adventurous.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Olivia",
+        "title": "Researcher",
+        "tags": [
+            "swim",
+            "swimming",
+            "pool",
+            "aquatics"
+        ],
+        "bio": "Hi, I'm Olivia, a 19-year-old student studying Psychology at XYZ University. I love swimming and consider myself quite enthusiastic.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Sophia",
+        "title": "Intern",
+        "tags": [
+            "swim",
+            "swimming",
+            "pool",
+            "aquatics"
+        ],
+        "bio": "Greetings! I'm Sophia, pursuing a degree in Psychology at XYZ University. Being Hispanic, I find swimming to be a great way to unwind.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "David",
+        "title": "Student",
+        "tags": [
+            "freshman",
+            "sophomore",
+            "junior",
+            "senior"
+        ],
+        "bio": "I'm David, a 19-year-old sophomore at XYZ University, majoring in Engineering. I'm of African descent and would describe myself as reserved. In my free time, I enjoy coding.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Daniel",
+        "title": "Intern",
+        "tags": [
+            "freshman",
+            "sophomore",
+            "junior",
+            "senior"
+        ],
+        "bio": "Hey there! I'm Daniel, currently enrolled as a junior in XYZ University. My main interests lie in Biology, and I spend my leisure time swimming.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Michael",
+        "title": "Student",
+        "tags": [
+            "asian",
+            "chinese",
+            "japanese",
+            "korean"
+        ],
+        "bio": "Hey there! I'm Michael, currently enrolled as a senior in XYZ University. My main interests lie in Biology, and I spend my leisure time reading.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Olivia",
+        "title": "Engineer",
+        "tags": [
+            "computer science",
+            "programming",
+            "coding",
+            "technology"
+        ],
+        "bio": "Hi, I'm Olivia, a 18-year-old student studying Engineering at XYZ University. I love reading and consider myself quite reserved.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "David",
+        "title": "Engineer",
+        "tags": [
+            "swim",
+            "swimming",
+            "pool",
+            "aquatics"
+        ],
+        "bio": "Greetings! I'm David, pursuing a degree in Engineering at XYZ University. Being Asian, I find reading to be a great way to unwind.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Sophia",
+        "title": "Engineer",
+        "tags": [
+            "asian",
+            "chinese",
+            "japanese",
+            "korean"
+        ],
+        "bio": "Hi, I'm Sophia, a 24-year-old student studying Psychology at XYZ University. I love swimming and consider myself quite adventurous.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Emily",
+        "title": "Engineer",
+        "tags": [
+            "swim",
+            "swimming",
+            "pool",
+            "aquatics"
+        ],
+        "bio": "Hi, I'm Emily, a 18-year-old student studying Biology at XYZ University. I love hiking and consider myself quite chill.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Emma",
+        "title": "Engineer",
+        "tags": [
+            "asian",
+            "chinese",
+            "japanese",
+            "korean"
+        ],
+        "bio": "Hi, I'm Emma, a 18-year-old student studying Engineering at XYZ University. I love swimming and consider myself quite enthusiastic.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Daniel",
+        "title": "Engineer",
+        "tags": [
+            "freshman",
+            "sophomore",
+            "junior",
+            "senior"
+        ],
+        "bio": "Hi, I'm Daniel, a 23-year-old student studying Psychology at XYZ University. I love reading and consider myself quite chill.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "David",
+        "title": "Student",
+        "tags": [
+            "chill",
+            "relaxed",
+            "laid-back",
+            "easygoing"
+        ],
+        "bio": "I'm David, a 24-year-old freshman at XYZ University, majoring in Psychology. I'm of African descent and would describe myself as reserved. In my free time, I enjoy hiking.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Emma",
+        "title": "Intern",
+        "tags": [
+            "chill",
+            "relaxed",
+            "laid-back",
+            "easygoing"
+        ],
+        "bio": "Hi, I'm Emma, a 20-year-old student studying Biology at XYZ University. I love hiking and consider myself quite enthusiastic.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "John",
+        "title": "Researcher",
+        "tags": [
+            "swim",
+            "swimming",
+            "pool",
+            "aquatics"
+        ],
+        "bio": "Hi, I'm John, a 23-year-old student studying Engineering at XYZ University. I love hiking and consider myself quite enthusiastic.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Emily",
+        "title": "Intern",
+        "tags": [
+            "water polo",
+            "aquatics",
+            "team sport",
+            "pool"
+        ],
+        "bio": "Hey there! I'm Emily, currently enrolled as a freshman in XYZ University. My main interests lie in Engineering, and I spend my leisure time hiking.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Andrew",
+        "title": "Student",
+        "tags": [
+            "swim",
+            "swimming",
+            "pool",
+            "aquatics"
+        ],
+        "bio": "Hey there! I'm Andrew, currently enrolled as a sophomore in XYZ University. My main interests lie in Biology, and I spend my leisure time hiking.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Andrew",
+        "title": "Engineer",
+        "tags": [
+            "asian",
+            "chinese",
+            "japanese",
+            "korean"
+        ],
+        "bio": "Hi, I'm Andrew, a 22-year-old student studying Biology at XYZ University. I love reading and consider myself quite reserved.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "David",
+        "title": "Researcher",
+        "tags": [
+            "swim",
+            "swimming",
+            "pool",
+            "aquatics"
+        ],
+        "bio": "Greetings! I'm David, pursuing a degree in Psychology at XYZ University. Being European, I find reading to be a great way to unwind.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Michael",
+        "title": "Researcher",
+        "tags": [
+            "freshman",
+            "sophomore",
+            "junior",
+            "senior"
+        ],
+        "bio": "I'm Michael, a 18-year-old junior at XYZ University, majoring in Psychology. I'm of Asian descent and would describe myself as chill. In my free time, I enjoy coding.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Andrew",
+        "title": "Student",
+        "tags": [
+            "freshman",
+            "sophomore",
+            "junior",
+            "senior"
+        ],
+        "bio": "Greetings! I'm Andrew, pursuing a degree in Computer Science at XYZ University. Being European, I find coding to be a great way to unwind.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Sophia",
+        "title": "Engineer",
+        "tags": [
+            "water polo",
+            "aquatics",
+            "team sport",
+            "pool"
+        ],
+        "bio": "Hi, I'm Sophia, a 21-year-old student studying Psychology at XYZ University. I love coding and consider myself quite enthusiastic.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Sophia",
+        "title": "Student",
+        "tags": [
+            "freshman",
+            "sophomore",
+            "junior",
+            "senior"
+        ],
+        "bio": "Greetings! I'm Sophia, pursuing a degree in Engineering at XYZ University. Being Hispanic, I find hiking to be a great way to unwind.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Emily",
+        "title": "Student",
+        "tags": [
+            "chill",
+            "relaxed",
+            "laid-back",
+            "easygoing"
+        ],
+        "bio": "Hi, I'm Emily, a 21-year-old student studying Engineering at XYZ University. I love coding and consider myself quite reserved.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Isabella",
+        "title": "Intern",
+        "tags": [
+            "chill",
+            "relaxed",
+            "laid-back",
+            "easygoing"
+        ],
+        "bio": "Hey there! I'm Isabella, currently enrolled as a sophomore in XYZ University. My main interests lie in Engineering, and I spend my leisure time swimming.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Olivia",
+        "title": "Student",
+        "tags": [
+            "swim",
+            "swimming",
+            "pool",
+            "aquatics"
+        ],
+        "bio": "Hi, I'm Olivia, a 18-year-old student studying Engineering at XYZ University. I love coding and consider myself quite reserved.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Andrew",
+        "title": "Student",
+        "tags": [
+            "water polo",
+            "aquatics",
+            "team sport",
+            "pool"
+        ],
+        "bio": "Greetings! I'm Andrew, pursuing a degree in Computer Science at XYZ University. Being European, I find reading to be a great way to unwind.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "John",
+        "title": "Engineer",
+        "tags": [
+            "computer science",
+            "programming",
+            "coding",
+            "technology"
+        ],
+        "bio": "Greetings! I'm John, pursuing a degree in Biology at XYZ University. Being Hispanic, I find reading to be a great way to unwind.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Michael",
+        "title": "Student",
+        "tags": [
+            "freshman",
+            "sophomore",
+            "junior",
+            "senior"
+        ],
+        "bio": "Hey there! I'm Michael, currently enrolled as a freshman in XYZ University. My main interests lie in Psychology, and I spend my leisure time hiking.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Andrew",
+        "title": "Intern",
+        "tags": [
+            "computer science",
+            "programming",
+            "coding",
+            "technology"
+        ],
+        "bio": "Greetings! I'm Andrew, pursuing a degree in Engineering at XYZ University. Being Asian, I find reading to be a great way to unwind.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Sophia",
+        "title": "Engineer",
+        "tags": [
+            "freshman",
+            "sophomore",
+            "junior",
+            "senior"
+        ],
+        "bio": "Greetings! I'm Sophia, pursuing a degree in Computer Science at XYZ University. Being Asian, I find coding to be a great way to unwind.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Sophia",
+        "title": "Engineer",
+        "tags": [
+            "computer science",
+            "programming",
+            "coding",
+            "technology"
+        ],
+        "bio": "Hi, I'm Sophia, a 20-year-old student studying Engineering at XYZ University. I love swimming and consider myself quite adventurous.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "David",
+        "title": "Student",
+        "tags": [
+            "water polo",
+            "aquatics",
+            "team sport",
+            "pool"
+        ],
+        "bio": "Hey there! I'm David, currently enrolled as a senior in XYZ University. My main interests lie in Psychology, and I spend my leisure time hiking.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Sophia",
+        "title": "Researcher",
+        "tags": [
+            "college",
+            "university",
+            "student",
+            "education"
+        ],
+        "bio": "Hi, I'm Sophia, a 21-year-old student studying Psychology at XYZ University. I love reading and consider myself quite enthusiastic.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Emily",
+        "title": "Researcher",
+        "tags": [
+            "water polo",
+            "aquatics",
+            "team sport",
+            "pool"
+        ],
+        "bio": "Hi, I'm Emily, a 24-year-old student studying Biology at XYZ University. I love hiking and consider myself quite chill.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Daniel",
+        "title": "Researcher",
+        "tags": [
+            "chill",
+            "relaxed",
+            "laid-back",
+            "easygoing"
+        ],
+        "bio": "I'm Daniel, a 20-year-old junior at XYZ University, majoring in Psychology. I'm of European descent and would describe myself as chill. In my free time, I enjoy coding.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Michael",
+        "title": "Intern",
+        "tags": [
+            "freshman",
+            "sophomore",
+            "junior",
+            "senior"
+        ],
+        "bio": "I'm Michael, a 24-year-old senior at XYZ University, majoring in Biology. I'm of Asian descent and would describe myself as adventurous. In my free time, I enjoy hiking.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Sophia",
+        "title": "Researcher",
+        "tags": [
+            "swim",
+            "swimming",
+            "pool",
+            "aquatics"
+        ],
+        "bio": "Hey there! I'm Sophia, currently enrolled as a sophomore in XYZ University. My main interests lie in Biology, and I spend my leisure time swimming.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Andrew",
+        "title": "Researcher",
+        "tags": [
+            "chill",
+            "relaxed",
+            "laid-back",
+            "easygoing"
+        ],
+        "bio": "Hi, I'm Andrew, a 20-year-old student studying Psychology at XYZ University. I love hiking and consider myself quite chill.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "David",
+        "title": "Researcher",
+        "tags": [
+            "college",
+            "university",
+            "student",
+            "education"
+        ],
+        "bio": "I'm David, a 20-year-old junior at XYZ University, majoring in Engineering. I'm of European descent and would describe myself as reserved. In my free time, I enjoy swimming.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Olivia",
+        "title": "Researcher",
+        "tags": [
+            "water polo",
+            "aquatics",
+            "team sport",
+            "pool"
+        ],
+        "bio": "I'm Olivia, a 18-year-old sophomore at XYZ University, majoring in Computer Science. I'm of European descent and would describe myself as enthusiastic. In my free time, I enjoy coding.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Daniel",
+        "title": "Student",
+        "tags": [
+            "water polo",
+            "aquatics",
+            "team sport",
+            "pool"
+        ],
+        "bio": "Hey there! I'm Daniel, currently enrolled as a senior in XYZ University. My main interests lie in Psychology, and I spend my leisure time reading.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Emma",
+        "title": "Engineer",
+        "tags": [
+            "freshman",
+            "sophomore",
+            "junior",
+            "senior"
+        ],
+        "bio": "Hey there! I'm Emma, currently enrolled as a sophomore in XYZ University. My main interests lie in Engineering, and I spend my leisure time hiking.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Michael",
+        "title": "Intern",
+        "tags": [
+            "asian",
+            "chinese",
+            "japanese",
+            "korean"
+        ],
+        "bio": "Greetings! I'm Michael, pursuing a degree in Engineering at XYZ University. Being African, I find coding to be a great way to unwind.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "David",
+        "title": "Engineer",
+        "tags": [
+            "freshman",
+            "sophomore",
+            "junior",
+            "senior"
+        ],
+        "bio": "Hi, I'm David, a 22-year-old student studying Computer Science at XYZ University. I love reading and consider myself quite enthusiastic.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "John",
+        "title": "Engineer",
+        "tags": [
+            "swim",
+            "swimming",
+            "pool",
+            "aquatics"
+        ],
+        "bio": "Hi, I'm John, a 20-year-old student studying Engineering at XYZ University. I love hiking and consider myself quite enthusiastic.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Emma",
+        "title": "Student",
+        "tags": [
+            "computer science",
+            "programming",
+            "coding",
+            "technology"
+        ],
+        "bio": "I'm Emma, a 24-year-old freshman at XYZ University, majoring in Psychology. I'm of African descent and would describe myself as enthusiastic. In my free time, I enjoy reading.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Andrew",
+        "title": "Student",
+        "tags": [
+            "water polo",
+            "aquatics",
+            "team sport",
+            "pool"
+        ],
+        "bio": "Greetings! I'm Andrew, pursuing a degree in Computer Science at XYZ University. Being African, I find hiking to be a great way to unwind.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Daniel",
+        "title": "Intern",
+        "tags": [
+            "chill",
+            "relaxed",
+            "laid-back",
+            "easygoing"
+        ],
+        "bio": "Hey there! I'm Daniel, currently enrolled as a junior in XYZ University. My main interests lie in Biology, and I spend my leisure time hiking.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Isabella",
+        "title": "Engineer",
+        "tags": [
+            "computer science",
+            "programming",
+            "coding",
+            "technology"
+        ],
+        "bio": "Greetings! I'm Isabella, pursuing a degree in Psychology at XYZ University. Being European, I find coding to be a great way to unwind.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Olivia",
+        "title": "Researcher",
+        "tags": [
+            "swim",
+            "swimming",
+            "pool",
+            "aquatics"
+        ],
+        "bio": "I'm Olivia, a 22-year-old senior at XYZ University, majoring in Computer Science. I'm of Asian descent and would describe myself as reserved. In my free time, I enjoy swimming.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "David",
+        "title": "Intern",
+        "tags": [
+            "college",
+            "university",
+            "student",
+            "education"
+        ],
+        "bio": "Greetings! I'm David, pursuing a degree in Engineering at XYZ University. Being African, I find hiking to be a great way to unwind.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Emma",
+        "title": "Researcher",
+        "tags": [
+            "swim",
+            "swimming",
+            "pool",
+            "aquatics"
+        ],
+        "bio": "I'm Emma, a 20-year-old junior at XYZ University, majoring in Computer Science. I'm of African descent and would describe myself as adventurous. In my free time, I enjoy swimming.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Olivia",
+        "title": "Intern",
+        "tags": [
+            "computer science",
+            "programming",
+            "coding",
+            "technology"
+        ],
+        "bio": "Hi, I'm Olivia, a 25-year-old student studying Biology at XYZ University. I love swimming and consider myself quite chill.",
+        "learn_more": "link goes here"
+    },
+    {
+        "name": "Sophia",
+        "title": "Researcher",
+        "tags": [
+            "college",
+            "university",
+            "student",
+            "education"
+        ],
+        "bio": "I'm Sophia, a 23-year-old junior at XYZ University, majoring in Engineering. I'm of African descent and would describe myself as reserved. In my free time, I enjoy coding.",
+        "learn_more": "link goes here"
+    }
+]
