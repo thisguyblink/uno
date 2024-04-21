@@ -1,15 +1,29 @@
 <script>
+    import { writable } from "svelte/store";
+
+    import { search_term } from "$lib/store";
+
     import Page from "$lib/backround.svelte";
-    let search_term = "";
-    let name = "";
+    // Let's import the global store
+    function handleSubmit() {
+        // Update the global store with the new search_term value
+        search_term.set(searchTerm);
+        // Navigate to the new page
+    }
 </script>
 
 <div class="back">
     <div class="searchBar">
         <p id="bio">Biography Search</p>
-        <p id="autofill">Looking for {search_term || "something random"}!</p>
-        <input id="searchIn" bind:value={search_term} placeholder="explore!!" />
-        <button id="search">Search</button>
+        <p id="autofill">Looking for {$search_term || "something random"}!</p>
+        <input
+            id="searchIn"
+            bind:value={$search_term}
+            placeholder="explore!!"
+        />
+        <a href="bio">
+            <button id="search" on:click={handleSubmit}>Search</button>
+        </a>
     </div>
     <div class="pics">
         <img id="person1" src="/assets/download-1.jpg" alt="" />
