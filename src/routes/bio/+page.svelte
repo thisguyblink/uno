@@ -24,26 +24,62 @@
     search_term.subscribe((val) => {
         value = val;
     });
-    let commonTags = [];
-    let commonTagsCount = 0;
+    // let commonTags = [];
+    // let commonTagsCount = 0;
 
-    function getCommonTags() {
-        const allTags = people.reduce((acc, item) => acc.concat(item.tags), []);
+    // function getCommonTags() {
+    //     const allTags = people.reduce((acc, item) => acc.concat(item.tags), []);
 
-        const tagCount = {};
-        allTags.forEach((tag) => {
-            tagCount[tag] = (tagCount[tag] || 0) + 1;
-            commonTagsCount += 1;
-        });
+    //     const tagCount = {};
+    //     allTags.forEach((tag) => {
+    //         tagCount[tag] = (tagCount[tag] || 0) + 1;
+    //         commonTagsCount += 1;
+    //     });
+    //     nameList = [];
+    //     people.forEach((person) => {
+    //         nameList.push(person.name);
+    //     });
 
-        commonTags = Object.keys(tagCount).filter((tag) => tagCount[tag] > 1);
-        if (commonTags.length > 1) {
-            name = people[2].name; // Change the name to the name from the first object in the JSON data
-            job = people[2].title; // Change the job to the title from the first object in the JSON data
-            biography = people[2].bio;
+    //     commonTags = Object.keys(tagCount).filter((tag) => tagCount[tag] > 1);
+    //     if (commonTags.length > 1) {
+    //         name = people[2].name; // Change the name to the name from the first object in the JSON data
+    //         job = people[2].title; // Change the job to the title from the first object in the JSON data
+    //         biography = people[2].bio;
+    //     }
+    // }
+    // getCommonTags();
+
+    function checkTags(index) {
+        const person = people[index];
+        const personTags = person.tags;
+        const list = value.split(""); // List of strings to check
+
+        for (let tag of personTags) {
+            if (list.includes(tag)) {
+                return person;
+            }
+        }
+
+        return null;
+    }
+
+    function findPerson() {
+        for (let i = 99; i >= 0; i--) {
+            const person = checkTags(i);
+            if (person !== null) {
+                name = person.name;
+                job = person.title;
+                biography = person.bio;
+                return;
+            }
+            // name = "No person found with matching tags.";
+            // job = "";
+            // biography = "";
+            // return "No person found with matching tags.";
         }
     }
-    getCommonTags();
+
+    const personWithMatchingTags = findPerson();
 </script>
 
 <Page></Page>
@@ -100,7 +136,7 @@
     #title {
         position: absolute;
         top: 24%;
-        left: 35%;
+        left: 32%;
         font-size: 30px;
     }
     #portrait {
