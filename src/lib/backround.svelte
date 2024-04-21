@@ -6,6 +6,6 @@
         font-family: "Jersey 25";
     }
     body {
-        background-color: #3e8989;
+        background-color: #bee3db;
     }
 </style>

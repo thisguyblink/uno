@@ -1,0 +1,19 @@
+{
+    "people": [
+        {
+            "name": "Dzinh Pham",
+            "title": "Student",
+            "tags": [
+                "college",
+                "asian",
+                "computer science",
+                "freshman",
+                "chill",
+                "swim",
+                "water polo"
+            ],
+            "bio": "I'm John, an 18-year-old freshman at XYZ University, majoring in Computer Science. I'm of Asian descent and would describe myself as chill. In my free time, I enjoy swimming and playing water polo.",
+            "learn_more": "link goes here"
+        }
+    ]
+}
