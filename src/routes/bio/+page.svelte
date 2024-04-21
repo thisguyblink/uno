@@ -1,8 +1,18 @@
 <script>
     import Page from "$lib/backround.svelte";
     import { search_term } from "$lib/store";
-    const api_key = "AIzaSyApg5WAot5CSD02dv5GXxgBRpxkxYJO2NI";
-
+    import people from "./people.json"; // Import your JSON file
+    // import { ChatSession } from "@google/generative-ai";
+    // import {GoogleGenerativeAI} from '@google/generative-ai';
+    // const api_key = "AIzaSyApg5WAot5CSD02dv5GXxgBRpxkxYJO2NI";
+    // const model_name = "gemini-pro";
+    // async function getPerson(input) {
+    //     const genAI = GoogleGenerativeAI(api_key);
+    //     genAI.getGenerativeModel({model:model_name});
+    //     const result = await ChatSession.sendMessage(input);
+    //     const response = result.response.text();
+    //     return response;
+    // }
     let name = "John Smith";
     let job = "Student";
     let picture = "/assets/download-1.jpg";
@@ -14,6 +24,26 @@
     search_term.subscribe((val) => {
         value = val;
     });
+    let commonTags = [];
+    let commonTagsCount = 0;
+
+    function getCommonTags() {
+        const allTags = people.reduce((acc, item) => acc.concat(item.tags), []);
+
+        const tagCount = {};
+        allTags.forEach((tag) => {
+            tagCount[tag] = (tagCount[tag] || 0) + 1;
+            commonTagsCount += 1;
+        });
+
+        commonTags = Object.keys(tagCount).filter((tag) => tagCount[tag] > 1);
+        if (commonTags.length > 1) {
+            name = people[2].name; // Change the name to the name from the first object in the JSON data
+            job = people[2].title; // Change the job to the title from the first object in the JSON data
+            biography = people[2].bio;
+        }
+    }
+    getCommonTags();
 </script>
 
 <Page></Page>
