@@ -24,7 +24,6 @@
         <img id="person10" src="/assets/download-10.jpg" alt="" />
         <img id="person11" src="/assets/download-11.jpg" alt="" />
         <img id="person12" src="/assets/download-12.jpg" alt="" />
-        <img id="person13" src="/assets/download-13.jpg" alt="" />
     </div>
 </div>
 
@@ -86,11 +85,13 @@
         display: flex;
         flex-wrap: wrap;
         position: absolute;
-        left: 10%;
-        top: 10%;
-        filter: blur(2px);
+        left: -10%;
+        top: -30%;
+        flex-grow: 1;
+        filter: blur(8px);
     }
     .pics img {
+        flex-grow: 1;
         filter: blur(5px);
         margin: 10px;
         filter: saturate(0);
